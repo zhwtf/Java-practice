@@ -10,7 +10,7 @@ public class DailyAdviceClient {
             //chain a BufferredReader to an InputStreamReader to the input stream from
             // the Socket
             InputStreamReader streamReader = new InputStreamReader(s.getInputStream());
-            BufferredReader reader = new BufferredReader(streamReader);
+            BufferedReader reader = new BufferedReader(streamReader);
 
 
 
